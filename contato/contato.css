@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../images/note2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav a {
+    float: right;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sessao {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.contato {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 40px;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+.field {
+    padding: 10px;
+    margin-bottom: -10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+textarea {
+    height: 150px;
+}
+.contato h1 {
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 5px #000;
+    text-align: center;
+}
+label {
+    color: white;
+    font-weight: bold;
+}
+#botao-enviar {
+    font-size: 22px;
+    color: #580404;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+#botao-enviar:hover {
+    background-color: #e09c9c;
+    box-shadow: 2px 2px 5px #580404 ;
+    color: white;
+}
+.whats {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    justify-content: flex-end;
+    z-index: 10;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+}
+.whats:hover {
+    transform: scale(1.1);
+    filter:drop-shadow(3px 3px 5px green);
+
+}

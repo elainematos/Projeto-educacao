@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="matricula.css">
+    <title>Formulário de Matrícula</title>
+</head>
+<body>
+    <nav>
+        <a href="../index.html">Voltar página inicial</a>
+    </nav>
+    <header>
+        <img src="../images/logo-educ-branca.png" alt="Logo educ 0800" title="Logo educ 0800" height="200rem">
+    </header>
+    <main>
+        <div class="container">
+            <button class="logar"onclick="logando()">Logar</button>
+            <button class="cadastrar" onclick="cadastrando()">Cadastrar</button>
+            <div id="formCadastrar">
+                <form action="" method="POST" >
+                                    
+                    <label>Nome</label>
+                    <input type="text" name="nome" id="texto" class="field" required placeholder="Digite seu nome completo"><br><br>
+
+                    <label for="">Email</label>
+                    <input type="email" name="email" id="email" class="field" required placeholder="Digite aqui seu email"><br><br>
+
+                    <label for="">Confirme Email</label>
+                    <input type="email" name="email" id="email" class="field" required placeholder="Confirme seu email"><br><br>
+
+                    <label for="">Telefone</label>
+                    <input type="tel" name="telefone" id="telefone" class="field" required placeholder="(99)9999-9999"><br><br>
+
+                    <input type="submit" class="field" id="botao-enviar" value="Enviar">
+                </form>
+            </div> 
+           
+            </div>
+        </div>
+    </main>
+
+
+    <script src="matricula.js"></script>
+</body>
+</html>

@@ -1,0 +1,275 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: auto;
+    background-image: url(images/note3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+header {
+    background-image: url(images/note2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+    margin-top:auto;
+    padding-top: 1rem;
+  
+
+}
+header h1 {
+    color:white;
+    font-size: 90px;
+    text-align: center;
+  
+}
+header h3 {
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    
+}
+header p {
+    color:white;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+nav {
+    background-color: rgb(88, 4, 4);
+    width: 100%;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto    ;
+  
+}
+.logar {
+    margin-right: 5%;
+       
+    
+}
+.logar a {
+    
+
+}
+#sobre {
+    padding: 5rem;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+button{
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    border: ridge;
+    background-color: transparent;
+    height: 40px;
+    width: 200px;    
+    text-align: center;
+    cursor: pointer;   
+
+}
+button img {
+    filter: invert(100%); 
+    float: left;
+}
+button:hover {
+    
+    background-color: #953838;
+    
+}
+
+.logo {
+    float: left;    
+    margin-left: 2%;
+}
+.menu li {
+    text-decoration: none;    
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 50px;
+    
+   
+
+}
+.menu a:hover{
+    background-color:white;
+    height:100%;
+    color:#580404;
+    padding:1rem;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+.menu a {
+    text-decoration: none;
+    color:white;
+
+}
+section h1 {
+    color:#580404;
+    font-size: 2rem;
+    text-align: center;
+
+   
+}
+.flex-container {
+    display:flex;      
+    flex-direction: row;
+    flex-wrap: wrap;       
+    gap: 20px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    max-width: 120rem;  
+   
+}
+.cursos {
+   
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 3px 3px 4px #580404;
+    height: 23rem;
+    width: 18rem;
+    color: #580404;
+   
+    
+}
+
+.cursos p{
+    color: black;
+}
+.cursos img {
+    border-radius: 5px 5px 0 0;
+    width: 18rem;
+
+}
+.cursos button {
+    color: white;
+    background-color: #580404;
+    
+} 
+.cursos button:hover {
+    transform: scale(1.1);
+}
+footer {
+    align-items: center;
+    height: 5rem;
+    background-color: #580404;
+    color: white;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+   
+}
+footer .frase {
+    padding: 5px;
+    text-align: center;
+}
+footer img {
+    height: 3rem;
+    filter: invert(100%); 
+   margin-top: 4px;
+}
+#materiais {
+    margin-top: 8rem;
+}
+.imagens a:hover {
+    filter: drop-shadow(0px 0px 3px #f1bbbb);
+    
+
+}
+.materiais {
+    border: solid 2px #580404;
+    border-radius: 15px;
+    height: 220px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    color:#580404;
+    font-size: 20px;
+   
+
+}
+.materiais img {
+    border-radius: 15px 0 0 15px ;
+}
+.materiais p {
+    padding-left: 15px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+   
+}
+.materiais a{
+    text-decoration: none;
+    color: #580404;
+
+}
+.voltarTopo {
+    align-items: center;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: rgb(37, 37, 37);
+    filter: invert(70%);
+    margin-top: 20px;
+}
+@media only screen and (max-width:500px) and (max-width:800px) {
+    .logo {
+        width:500px;
+    }
+    body {
+        width:500px;
+    }
+    footer {
+        width:500px;
+    }
+    
+}
+@media only screen and (max-width:500px) {
+    nav {
+        width: 160%;
+        height: 300px;
+    }
+    .menu {
+        width: 200%;
+        
+
+    }
+    .logar {
+        width: 400%;
+    }
+    header {
+        width: 160%;
+        font-size: 50px;
+        height: 45rem;
+        
+    }
+    .materiais {
+        width: 135%;
+        justify-content: center;
+    }
+    .cursos {
+        width: 300%;
+        height: 400px;
+    }
+    #sobre {
+        width: 120%;
+    }
+    footer {
+        width: 150%;
+        height: 130px;
+    }
+}
