@@ -24,4 +24,4 @@
 
 ## 📁 Acesso ao projeto
 Você pode acessar os arquivos do projeto clicando [aqui](https:/).
-Você pode acessar os arquivos do projeto clicando [Aqui](https:/). (ainda não possui caminho)
+Você pode acessar os arquivos do projeto clicando [Aqui](https://github.com/elainematos/Projeto-educacao).
